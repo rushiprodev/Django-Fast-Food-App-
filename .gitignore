@@ -1,24 +1,44 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
-
-# Django secret files
-.env
-
-# Database (if using SQLite)
 *.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.env
 
-# Virtual environments
+# Environment
+.env
 venv/
 env/
+*.env.*
 
-# Editor settings
+# Django
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+staticfiles/
+media/
+
+# Node.js (Tailwind)
+node_modules/
+*.tgz
+package-lock.json
+
+# Tailwind output
+core/static/css/output.css
+
+# VSCode
 .vscode/
 
-# OS system files
+# MacOS / Windows
 .DS_Store
 Thumbs.db
 
-# Static/media (optional)
-staticfiles/
-media/
+# Git
+*.swp
+*~
+.idea/
+*.bak
